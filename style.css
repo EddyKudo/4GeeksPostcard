@@ -1,0 +1,22 @@
+body{background: #c7c7c7;font-size: 32px; font-family: 'Tangerine', bold;}
+input {font-size: 40px; font-family: 'Tangerine', bold;padding: 5px;}
+.postCard{
+	height:450px;
+	width: 650px;
+	margin:auto;
+	position: absolute;
+	top: 50%; right: 50%;
+	transform: translate(50%,-50%);
+	background: white;
+	padding: 25px;
+}
+.postCardBody {overflow: hidden;}
+.postCard h1{ font-size: 60px;	margin: 0;}
+.postCardTop{	overflow: hidden;}
+.postCardTop img {	max-height: 70px; float: right; margin: 0;}
+.bodyLeft {	float: left; width: 50%;}
+.bodyRight{	margin-top: 50px; float: right; width: 50%;}
+.bodyRight input{display: block;}
+.postCardButton {  padding: 15px; text-align: center; }
+.postCardButton input[type=submit]{background: grey;border:none; border-bottom: 1px solid black;}
+.postCardBody input[type=text]{border:none; border-bottom: 1px solid black; width: 350px;}
